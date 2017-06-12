@@ -13,7 +13,7 @@
 		3D0D392C1EAD904D003AE7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0D392A1EAD904D003AE7C9 /* Main.storyboard */; };
 		3D0D392E1EAD904D003AE7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0D392D1EAD904D003AE7C9 /* Assets.xcassets */; };
 		3D0D39311EAD904D003AE7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0D392F1EAD904D003AE7C9 /* LaunchScreen.storyboard */; };
-		3D3F0DFF1EEE7D580080D898 /* TRSPublicClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F0DFE1EEE7D580080D898 /* TRSPublicClassA.m */; };
+		3D3F0E031EEE821B0080D898 /* TRSPublicClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F0E021EEE821B0080D898 /* TRSPublicClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		3D0D392D1EAD904D003AE7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0D39301EAD904D003AE7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D0D39321EAD904D003AE7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D3F0DFD1EEE7D580080D898 /* TRSPublicClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSPublicClassA.h; sourceTree = "<group>"; };
-		3D3F0DFE1EEE7D580080D898 /* TRSPublicClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSPublicClassA.m; sourceTree = "<group>"; };
+		3D3F0E011EEE821B0080D898 /* TRSPublicClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSPublicClassA.h; sourceTree = "<group>"; };
+		3D3F0E021EEE821B0080D898 /* TRSPublicClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSPublicClassA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		3D0D39201EAD904C003AE7C9 /* subtree_users_b */ = {
 			isa = PBXGroup;
 			children = (
-				3D3F0DFB1EEE7D580080D898 /* public_a */,
+				3D3F0E001EEE821B0080D898 /* TRSPublicAClass */,
 				3D0D39241EAD904D003AE7C9 /* AppDelegate.h */,
 				3D0D39251EAD904D003AE7C9 /* AppDelegate.m */,
 				3D0D39271EAD904D003AE7C9 /* ViewController.h */,
@@ -83,22 +83,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3D3F0DFB1EEE7D580080D898 /* public_a */ = {
+		3D3F0E001EEE821B0080D898 /* TRSPublicAClass */ = {
 			isa = PBXGroup;
 			children = (
-				3D3F0DFC1EEE7D580080D898 /* TRSPublicAClass */,
+				3D3F0E011EEE821B0080D898 /* TRSPublicClassA.h */,
+				3D3F0E021EEE821B0080D898 /* TRSPublicClassA.m */,
 			);
-			path = public_a;
-			sourceTree = "<group>";
-		};
-		3D3F0DFC1EEE7D580080D898 /* TRSPublicAClass */ = {
-			isa = PBXGroup;
-			children = (
-				3D3F0DFD1EEE7D580080D898 /* TRSPublicClassA.h */,
-				3D3F0DFE1EEE7D580080D898 /* TRSPublicClassA.m */,
-			);
-			path = TRSPublicAClass;
-			sourceTree = "<group>";
+			name = TRSPublicAClass;
+			path = public_a/TRSPublicAClass;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -175,7 +168,7 @@
 				3D0D39291EAD904D003AE7C9 /* ViewController.m in Sources */,
 				3D0D39261EAD904D003AE7C9 /* AppDelegate.m in Sources */,
 				3D0D39231EAD904D003AE7C9 /* main.m in Sources */,
-				3D3F0DFF1EEE7D580080D898 /* TRSPublicClassA.m in Sources */,
+				3D3F0E031EEE821B0080D898 /* TRSPublicClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
